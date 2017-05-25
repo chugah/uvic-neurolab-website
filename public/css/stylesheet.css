@@ -3,7 +3,7 @@ body {
 }
 
 canvas {
-	width: 100%;
+	width: 0%;
 	height: 100%
 }
 
@@ -111,5 +111,36 @@ Publications
 
 .card {
 	background-color: #F5F5F5;
+	border-radius: 5% !important;
 	margin-top: 1rem;
 }
+
+/* ==================================== 
+Lab Members
+==================================== */
+
+#lab-members {
+	background-color: #F5F5F5 !important;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.format {
+	width: 12rem;
+}
+
+/* ==================================== 
+Resources
+==================================== */
+
+.accordion-title {
+	font-size: 1.5rem !important;
+}
+
+/* ==================================== 
+Contact
+==================================== */
+
+.collapse {
+	margin-top: 1rem;
+}
+

@@ -44,7 +44,7 @@ Research
 }
 
 .photo-container {
-  display: inline-block;
+ /* display: inline-block;*/
   margin: 0 2rem;
   text-align: center;
   width: auto;
@@ -52,14 +52,14 @@ Research
 
 .photo-container img {
  	max-width: 100%;
- 	position: relative;
+ 	/*position: relative;*/
 	z-index: 100;
 }
 
-.photo {
+/*.photo {
 	position: relative;
 }
-
+*/
 .photo-desc {
   background: #8B0000 none repeat scroll 0 0;
   bottom: 4px;
@@ -77,11 +77,9 @@ Research
 }
 
 .text {
-	margin-top: 1rem;
-	margin-bottom: 0.5rem;
 	border: solid #8B0000 0.1rem;
 	padding: 1rem;
-	width: 18rem;
+	width: 25rem;
 }
 
 /* ==================================== 

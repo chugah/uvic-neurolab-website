@@ -255,7 +255,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	var spherical = new THREE.Spherical();
 	var sphericalDelta = new THREE.Spherical();
 
-	var scale = 1;
+	var scale = 1.5;
 	var panOffset = new THREE.Vector3();
 	var zoomChanged = false;
 
